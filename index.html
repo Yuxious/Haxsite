@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einfach gragas </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <section class="showcase">
+    <header>
+      <img class="grag" src="Removal-712.png" alt="">
+      
+      <h1 class="nick">
+        TNT World
+      </h1>
+      <div class="toggle"></div>
+    </header>
+    <video src="Untitled.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>THE BEST GRAGAS </h2>
+      <h3>PLAYER IS ME</h3>
+      <p>I've got the best plays </p>
+      <a href="#">Check out the videos</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="icons8-youtube-50.png"></a></li>
+
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About me</a></li>
+      <li><a href="#">Plays</a></li>
+
+    </ul>
+  </div>
+  <script>
+  const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+
+      })
+    </script>
+</body>
+</html>
